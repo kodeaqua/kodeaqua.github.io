@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
 html {
   position: relative;
   overflow-x: hidden !important;
@@ -9,8 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  background: linear-gradient(45deg, #333333, #dd1818);
+  font-family: 'Sansita Swashed', cursive;
 }
 
 a, a:hover {
@@ -34,9 +33,7 @@ a, a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: linear-gradient(-20deg, #232526 0%, #414345 100%);
-  display: flex;
-  background-image: linear-gradient(-20deg, #232526 0%, #414345 100%);
+  background-image: linear-gradient(40deg, #333333 100%, #dd1818 100%);
 }
 @media screen and (max-width: 768px) {
   .wrapper {
@@ -240,7 +237,7 @@ a, a:hover {
 .profile-card__button {
   background: none;
   border: none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Sansita Swashed', cursive;
   font-weight: 700;
   font-size: 19px;
   margin: 15px 35px;
@@ -360,7 +357,7 @@ a, a:hover {
   padding: 15px 20px;
   color: #324e63;
   font-weight: 500;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Sansita Swashed', cursive;
   outline: none;
   transition: all .3s;
 }

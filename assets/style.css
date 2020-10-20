@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap');
 html {
   position: relative;
   overflow-x: hidden !important;
@@ -98,27 +98,37 @@ a, a:hover {
   padding-bottom: 40px;
   transition: all .3s;
 }
+
+
 .profile-card__name {
   font-weight: 700;
   font-size: 24px;
-  color: #EB3349;
-  margin-bottom: 5px;
+  color: #dd1818;
+  margin-bottom: 6px;
 }
+
+
 .profile-card__txt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 18px;
-  font-weight: 500;
-  color: #324e63;
+  color: #333333;
   margin-bottom: 15px;
 }
 .profile-card__txt strong {
-  font-weight: 700;
+  font-weight: 400;
+  color: #dd1818;  
 }
+
+
 .profile-card__mail {
-  font-size: 16px;
-  font-weight: 500;
-  color: #324e63;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
   margin-bottom: 20px;
 }
+
 .profile-card-loc {
   display: flex;
   justify-content: center;
@@ -126,11 +136,13 @@ a, a:hover {
   font-size: 18px;
   font-weight: 600;
 }
+
 .profile-card-loc__icon {
   display: inline-flex;
   font-size: 27px;
   margin-right: 10px;
 }
+
 .profile-card-inf {
   display: flex;
   justify-content: center;
@@ -138,6 +150,7 @@ a, a:hover {
   align-items: flex-start;
   margin-top: 35px;
 }
+
 .profile-card-inf__item {
   padding: 10px 35px;
   min-width: 150px;

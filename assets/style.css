@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(45deg, #333333, #dd1818);
 }
 
 a, a:hover {
@@ -380,7 +381,4 @@ a, a:hover {
   transition: all .3s;
 }
 
-#grad_bg {
-  background-image: linear-gradient(to right, red , yellow);
-}
 </style>

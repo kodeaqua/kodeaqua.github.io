@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: 'Quicksand', sans-serif;
-  color: #324e63;
+  background-image: linear-gradient(to right, #333333 , #dd1818);
 }
 
 a, a:hover {
